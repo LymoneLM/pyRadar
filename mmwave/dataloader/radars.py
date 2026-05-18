@@ -17,7 +17,7 @@ import struct
 import time
 from multiprocessing import Process, Queue, Lock, Event
 import fpga_udp
-from mmwave.dataloader.parser_mmw_demo import parser_one_mmw_demo_output_packet
+from .parser_mmw_demo import parser_one_mmw_demo_output_packet
 import math
 
 MAGIC_WORD_ARRAY = np.array([2, 1, 4, 3, 6, 5, 8, 7])
